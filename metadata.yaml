@@ -1,6 +1,6 @@
 name: mccloud_site # 这是你的插件的唯一识别名。
 desc: 一个集成了网站测试工具的插件，支持网站连通性测试、速度测试、域名查询、端口扫描和网站截图功能。使用/sitehelp查看帮助。 # 插件简短描述
 help: 输入 /sitehelp 查看关键词回复帮助。 # 插件的帮助信息
-version: v1.0.0
+version: v1.0
 author: MC云-小馒头 # 作者
 repo: https://github.com/MCYUNIDC/mccloud_site # 插件的仓库地址
