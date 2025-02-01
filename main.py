@@ -4,7 +4,7 @@ from astrbot.api.star import Context, Star, register
 from astrbot.api.message_components import Plain, Image
 import aiohttp
 
-@register("mccloud_site", "MC云-小馒头", "一个集成了网站测试工具的插件，支持网站连通性测试、速度测试、域名查询、端口扫描和网站截图功能。使用/sitehelp查看帮助", "1.0.0")
+@register("mccloud_site", "MC云-小馒头", "一个集成了网站测试工具的插件，支持网站连通性测试、速度测试、域名查询、端口扫描和网站截图功能。使用/sitehelp查看帮助", "1.0")
 class MyPlugin(Star):
     def __init__(self, context: Context):
         super().__init__(context)
